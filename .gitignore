@@ -1,0 +1,7 @@
+Debug
+Release
+*.bak
+*.kicad_pcb-bak
+*.swp
+*.o
+*.hex
