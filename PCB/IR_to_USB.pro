@@ -1,4 +1,4 @@
-update=10/5/2015 1:04:28 PM
+update=10/12/2015 12:43:01 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=stm32
+LibName31=tsop48
