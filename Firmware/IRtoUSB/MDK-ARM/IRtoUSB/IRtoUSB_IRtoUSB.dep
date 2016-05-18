@@ -1,0 +1,928 @@
+Dependencies for Project 'IRtoUSB', Target 'IRtoUSB': (DO NOT MODIFY !)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x56FE562B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_ctlreq.o --omf_browse irtousb\usbd_ctlreq.crf --depend irtousb\usbd_ctlreq.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x56FE562B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_core.o --omf_browse irtousb\usbd_core.crf --depend irtousb\usbd_core.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+F (../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c)(0x57054F88)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_hid.o --omf_browse irtousb\usbd_hid.crf --depend irtousb\usbd_hid.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h)(0x57054F82)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+I (../Inc/usbd_desc.h)(0x56FE61E9)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x56FE562B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_ioreq.o --omf_browse irtousb\usbd_ioreq.crf --depend irtousb\usbd_ioreq.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_i2c_ex.o --omf_browse irtousb\stm32f0xx_hal_i2c_ex.crf --depend irtousb\stm32f0xx_hal_i2c_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal.o --omf_browse irtousb\stm32f0xx_hal.crf --depend irtousb\stm32f0xx_hal.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_flash.o --omf_browse irtousb\stm32f0xx_hal_flash.crf --depend irtousb\stm32f0xx_hal_flash.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_pcd.o --omf_browse irtousb\stm32f0xx_hal_pcd.crf --depend irtousb\stm32f0xx_hal_pcd.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_flash_ex.o --omf_browse irtousb\stm32f0xx_hal_flash_ex.crf --depend irtousb\stm32f0xx_hal_flash_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_rcc_ex.o --omf_browse irtousb\stm32f0xx_hal_rcc_ex.crf --depend irtousb\stm32f0xx_hal_rcc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_gpio.o --omf_browse irtousb\stm32f0xx_hal_gpio.crf --depend irtousb\stm32f0xx_hal_gpio.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_dma.o --omf_browse irtousb\stm32f0xx_hal_dma.crf --depend irtousb\stm32f0xx_hal_dma.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_tim.o --omf_browse irtousb\stm32f0xx_hal_tim.crf --depend irtousb\stm32f0xx_hal_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_pcd_ex.o --omf_browse irtousb\stm32f0xx_hal_pcd_ex.crf --depend irtousb\stm32f0xx_hal_pcd_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_pwr_ex.o --omf_browse irtousb\stm32f0xx_hal_pwr_ex.crf --depend irtousb\stm32f0xx_hal_pwr_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_rcc.o --omf_browse irtousb\stm32f0xx_hal_rcc.crf --depend irtousb\stm32f0xx_hal_rcc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_i2c.o --omf_browse irtousb\stm32f0xx_hal_i2c.crf --depend irtousb\stm32f0xx_hal_i2c.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_tim_ex.o --omf_browse irtousb\stm32f0xx_hal_tim_ex.crf --depend irtousb\stm32f0xx_hal_tim_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_cortex.o --omf_browse irtousb\stm32f0xx_hal_cortex.crf --depend irtousb\stm32f0xx_hal_cortex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x56FE5626)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_pwr.o --omf_browse irtousb\stm32f0xx_hal_pwr.crf --depend irtousb\stm32f0xx_hal_pwr.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (../Src/stm32f0xx_it.c)(0x56FE61E9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_it.o --omf_browse irtousb\stm32f0xx_it.crf --depend irtousb\stm32f0xx_it.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Inc/stm32f0xx_it.h)(0x56FE61E9)
+F (../Src/main.c)(0x57054E4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\main.o --omf_browse irtousb\main.crf --depend irtousb\main.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Inc/usb_device.h)(0x57054D6F)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+F (../Src/usbd_desc.c)(0x57040255)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_desc.o --omf_browse irtousb\usbd_desc.crf --depend irtousb\usbd_desc.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+I (../Inc/usbd_desc.h)(0x56FE61E9)
+F (../Src/usb_device.c)(0x57054D99)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usb_device.o --omf_browse irtousb\usb_device.crf --depend irtousb\usb_device.d)
+I (../Inc/usb_device.h)(0x57054D6F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+I (../Inc/usbd_desc.h)(0x56FE61E9)
+I (../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h)(0x57054F82)
+F (../Src/usbd_conf.c)(0x56FE61E9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\usbd_conf.o --omf_browse irtousb\usbd_conf.crf --depend irtousb\usbd_conf.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x56FE562B)
+I (../Inc/usbd_conf.h)(0x56FE61E9)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdlib.h)(0x55DB71C8)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x56FE562B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h)(0x57054F82)
+F (../Src/stm32f0xx_hal_msp.c)(0x56FE61E9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\stm32f0xx_hal_msp.o --omf_browse irtousb\stm32f0xx_hal_msp.crf --depend irtousb\stm32f0xx_hal_msp.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
+F (startup_stm32f070xb.s)(0x56FE61EC)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F070xB SETA 1"--list startup_stm32f070xb.lst --xref -o irtousb\startup_stm32f070xb.o --depend irtousb\startup_stm32f070xb.d)
+F (../Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/system_stm32f0xx.c)(0x56FE5609)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\Users\denis.tyurin\Desktop\GIT\IRtoUSB\Firmware\IRtoUSB\MDK-ARM\RTE-I C:\Users\denis.tyurin\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Users\denis.tyurin\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F070xB -DUSE_HAL_DRIVER -DSTM32F070xB-o irtousb\system_stm32f0xx.o --omf_browse irtousb\system_stm32f0xx.crf --depend irtousb\system_stm32f0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x56FE5609)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f070xb.h)(0x56FE5609)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x56FE5625)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x56FE5625)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x56FE5609)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x56FE5626)
+I (../Inc/stm32f0xx_hal_conf.h)(0x56FE61E9)
+I (../Inc/mxconstants.h)(0x56FE61EA)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x56FE5626)
+I (C:\Users\denis.tyurin\Keil\ARM\ARMCC\include\stdio.h)(0x55DB71C6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pcd_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x56FE5626)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x56FE5626)
