@@ -51,7 +51,8 @@
 #include "usb_device.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "keyboard.h"
+#include "ir_decoder.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -80,6 +81,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+  IR_COMMAND_T ir_command;
 
   /* USER CODE END 1 */
 
@@ -105,7 +107,12 @@ int main(void)
   MX_USB_DEVICE_Init();
 
   /* USER CODE BEGIN 2 */
+  keyboardInit();
 
+  HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_2);
+  HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_OC_Start_IT(&htim3, TIM_CHANNEL_3);
+  HAL_TIM_Base_Start_IT(&htim3);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -115,6 +122,22 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
+	  ir_command = ir_decode();
+	  if (IR_NO_COMMAND != ir_command)
+	  {
+		  switch (ir_command)
+		  {
+		  case IR_COMMAND_POWER_TOGGLE:
+			  keyboardPutString("POWER BUTTON\r\n");
+			  break;
+		  case IR_COMMAND_RETURN:
+			  keyboardPutString("HOME BUTTON\r\n");
+			  break;
+		  default:
+			  keyboardPutString("Unknown command");
+		  }
+	  }
+	  HAL_Delay(10);
 
   }
   /* USER CODE END 3 */

@@ -36,11 +36,14 @@
 #include "stm32f0xx_it.h"
 
 /* USER CODE BEGIN 0 */
+#include "ir_decoder.h"
 
+extern TIM_HandleTypeDef htim3;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
 extern PCD_HandleTypeDef hpcd_USB_FS;
+extern TIM_HandleTypeDef htim3;
 
 extern TIM_HandleTypeDef htim17;
 
@@ -110,6 +113,20 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+* @brief This function handles TIM3 global interrupt.
+*/
+void TIM3_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM3_IRQn 0 */
+
+  /* USER CODE END TIM3_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim3);
+  /* USER CODE BEGIN TIM3_IRQn 1 */
+
+  /* USER CODE END TIM3_IRQn 1 */
+}
+
+/**
 * @brief This function handles TIM17 global interrupt.
 */
 void TIM17_IRQHandler(void)
@@ -138,6 +155,27 @@ void USB_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
+{
+	if(htim->Instance == TIM3)
+	{
+		if (HAL_TIM_ACTIVE_CHANNEL_3 == htim->Channel)
+	    {
+			ir_receiver_timeout();
+	    }
+	}
+}
 
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+	if(htim->Instance == TIM3)
+	{
+		if (HAL_TIM_ACTIVE_CHANNEL_1 == htim->Channel)
+	    {
+			ir_receive_data(HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1),
+							HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2));
+	    }
+	}
+}
 /* USER CODE END 1 */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
